@@ -1,2 +1,2 @@
 
-<H1> Contribuintes do trabalho</H1>
+<H1> Contribuintes do Projeto:</H1>
