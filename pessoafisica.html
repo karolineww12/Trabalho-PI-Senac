@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>PESSOA FÍSICA</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="tela_pessoafisica"><!--Início do corpo do HTML-->
+
+  <!--Cabeçalho da página-->
+<header>
+   <h1>Escola de Ensino Superior Programadores do Amanhã</h1><!--Título com o nome da nossa escola-->
+    <h2>EESPA</h2><!--Título com o logo da nossa escola-->
+    </header><!--Fechamento do cabeçalho-->
+
+  <h1>ÁREA DA PESSOA FÍSICA</h1><!--Título-->
+
+
+  <div id="img_pessoafisica">
+    <img src="images/pessoa2.jpg" width="100" height="100" alt="Logo da Pessoa Física"><!--Imagem da página-->
+      </div>
+    <form id="cadastro_pessoafisica"><!--Início do cadastro (formulário)-->
+
+      <div class="campo">
+        <label for="nome">NOME COMPLETO: </label><!--Label para completar o nome-->
+        <input type="text" name="nome" id="nome" required>
+      </div>
+      <br>
+      <div class="campo">
+        <label for="CPF">CPF: </label><!--Label para completar o CPF-->
+        <input type="text" name="cpf" id="cpf" required>
+      </div>
+      <br>
+      <div class="campo">
+        <label for="endereco">ENDEREÇO: </label><!--Label para completar o Endereço-->
+        <input type="text" name="endereco" id="endereco" required>
+      </div>
+      <br>
+      <div class="campo">
+        <label for="login">LOGIN: </label><!--Label para completar o login-->
+        <input type="text" name="login" id="login" required>
+      </div>
+  <br>
+      <div class="campo">
+        <label for="senha">SENHA: </label><!--Label para completar a senha-->
+        <input type="text" name="senha" id="senha" required>   
+      </div>  
+
+
+      <input type="submit" value="Enviar" /><!--Botão de enviar as informações-->
+    </form>
+  <!--Botão de voltar-->
+  <a href="opcoes.html" onclick="goBack(); return true;">Voltar</a>
+  <!--Botão de voltar-->
+  <script>
+      function goBack() {
+          window.history.back();
+      }
+  </script>
+</body>
+
+</html>

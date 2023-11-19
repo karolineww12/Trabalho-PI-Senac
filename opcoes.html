@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>OPÇÕES DE CADASTRO</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="tela_opcao">
+  <!--Início do corpo do HTML-->
+
+  <!--Área de cabeçalho-->
+  <header>
+    <h1>Escola de Ensino Superior Programadores do Amanhã</h1>
+    <!--Titúlo da nossa esola-->
+    <h2>EESPA</h2>
+    <!--Título-->
+  </header>
+  <!--Final da área de cabeçalho-->
+
+  <section id="opcoes">
+    <h2>OPÇÕES DE CADASTRO</h2>
+    <!--Abertura de DIV para título-->
+    <h3><i>Escola de Ensino Superior Programadores do Amanhã</i></h3>
+    <div id="escolha">
+      <!--Label de escolha de função dentro da escola-->
+      <h2>O que você é?</h2>
+      <select onchange="window.location.href = this.value;">
+        <option>----------</option>
+        <option value="professor.html">PROFESSOR</option>
+        <!--Label de escolha professor, encaminhando para a página específica-->
+        <option value="aluno.html">ALUNO</option>
+        <!--Label de escolha aluno, encaminhando para a página específica-->
+        <option value="fornecedor.html">FORNECEDOR</option>
+        <!--Label de escolha fornecedor, encaminhando para a página específica-->
+        <option value="pessoafisica.html">PESSOA FÍSICA</option>
+        <!--Label de escolha pessoa física, encaminhando para a página específica-->
+        <option value="pessoajuridica.html">PESSOA JURIDICA</option>
+        
+        <option value="Notas.html">Notas do Aluno</option>
+        <!--Label de escolha pessoa jurídica, encaminhando para a página específica-->
+      </select>
+
+    </div>
+  </section>
+
+  <!--Botão de voltar-->
+  <a href="areainicio.html" onclick="goBack(); return true;">Voltar</a>
+  <!--Botão de voltar-->
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+<!--Final do corpo do HTML-->
+
+</html>
