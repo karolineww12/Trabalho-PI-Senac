@@ -6,4 +6,7 @@
 <h3> José jackson oliveira de lima <h3>
 
 <h3> Felipe Todeschini<h3>
+  
 <h3> Gustavo Henrique Coelho Eleuterio </h3>
+
+<h3> Arthur Henrique Pedroso Salvador </h3>
