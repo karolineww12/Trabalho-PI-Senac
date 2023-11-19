@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>PROFESSOR</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="tela_professor">
+
+
+  <header><!--Cabeçalho-->
+    <h1>Escola de Ensino Superior Programadores do Amanhã</h1><!--Título de nossa escola-->
+    <h2>EESPA</h2>
+    </header>
+  
+  <h1>ÁREA DO PROFESSOR</h1><!--Título da area do professor-->
+
+  
+  <div id="img_professor">
+    <img src="images/professor.png" width="100" height="100" alt="Logo do Professor"><!--Imagem do professor-->
+      </div>
+    <form id="cadastro_professor"><!--Inicio do formulário-->
+
+      <div class="campo">
+        <label for="nome">NOME COMPLETO: </label>
+        <input type="text" name="nome" id="nome" required><!--Label para solicitação do nome do professor-->
+      </div>
+      <br>
+      <div class="campo">
+        <label for="CPF">CPF: </label><!--Label para solicitação do CPF do professor-->
+        <input type="text" name="cpf" id="cpf" required>
+      </div>
+      <br>
+      <div class="campo">
+        <label for="endereco">ENDEREÇO: </label><!--Label para solicitação do endereço do professor-->
+        <input type="text" name="endereco" id="endereco" required>
+      </div>
+      <br>
+      <div class="campo">
+        <label for="disciplina">DISCIPLINA: </label><!--Label para solicitação da disciplina que o professor irá ministrar-->
+        <input type="text" name="disciplina" id="disciplina" required>
+      </div>
+      <br>
+      <div class="campo">
+        <label for="login">LOGIN: </label><!--Label para solicitação do login do professor-->
+        <input type="text" name="login" id="login" required>
+      </div>
+  <br>
+      <div class="campo">
+        <label for="senha">SENHA: </label><!--Label para solicitação da senha do professor-->
+        <input type="text" name="senha" id="senha" required>   
+      </div>  
+
+
+      <input type="submit" value="Enviar" /><!--Botão de enviar as informações para o banco de dados-->
+    </form>
+  <a href="opcoes.html" onclick="goBack(); return true;">Voltar</a><!--Botão de voltar-->
+
+  <script>
+      function goBack() {
+          window.history.back();
+      }
+  </script>
+
+  
+</body>
+
+</html>

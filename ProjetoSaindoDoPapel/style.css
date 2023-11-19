@@ -1,0 +1,115 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #BC8F8F;
+}
+
+#tela_inicio {
+  text-align: center;
+
+}
+
+header {
+  background-color: blanchedalmond;
+  border-radius: 20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+#escolha {
+  text-align: center;
+}
+
+#tela_opcao {
+  text-align: center;
+}
+
+#botao_voltar {
+  background-color: red;
+}
+
+#opcoes {
+  background-color: #EE82EE;
+  border-radius: 100px;
+  margin-top: 15%;
+}
+
+#cadastro_inicial {
+  background-color: pink;
+  border-radius: 500px;
+  left: 20;
+  text-align: center;
+}
+
+#cadastro_aluno {
+  background-color: yellowgreen;
+  border-radius: 500px;
+  left: 20;
+  text-align: center;
+}
+
+#cadastro_professor {
+  background-color: darkgreen;
+  border-radius: 500px;
+  left: 20;
+  text-align: center;
+}
+
+#cadastro_fornecedor {
+  background-color: yellowgreen;
+  border-radius: 500px;
+  left: 20;
+  text-align: center;
+}
+
+#cadastro_pessoajuridica {
+  background-color: yellow;
+  border-radius: 500px;
+  left: 20;
+  text-align: center;
+}
+
+#cadastro_pessoafisica {
+  background-color: #008080;
+  border-radius: 500px;
+  left: 20;
+  text-align: center;
+}
+
+#img_logo_programacao {
+  display: block;
+  margin: 0 auto;
+}
+
+#img_aluno {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#img_professor {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#img_fornecedor {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#img_pessoajurica {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#img_pessoafisica {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
